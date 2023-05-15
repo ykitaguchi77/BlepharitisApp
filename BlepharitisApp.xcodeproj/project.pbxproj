@@ -11,6 +11,20 @@
 		BF08DCE32A12808700AF3712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCE22A12808700AF3712 /* ContentView.swift */; };
 		BF08DCE52A12808800AF3712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF08DCE42A12808800AF3712 /* Assets.xcassets */; };
 		BF08DCE82A12808800AF3712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF08DCE72A12808800AF3712 /* Preview Assets.xcassets */; };
+		BF08DCF02A12814C00AF3712 /* ConstHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCEF2A12814C00AF3712 /* ConstHolder.swift */; };
+		BF08DCF22A12816900AF3712 /* ResultHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCF12A12816900AF3712 /* ResultHolder.swift */; };
+		BF08DCF42A12818700AF3712 /* MovieCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCF32A12818700AF3712 /* MovieCropper.swift */; };
+		BF08DCF62A12819D00AF3712 /* QRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCF52A12819D00AF3712 /* QRScanner.swift */; };
+		BF08DCF82A1281BC00AF3712 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCF72A1281BC00AF3712 /* ScanButton.swift */; };
+		BF08DCFA2A1281E100AF3712 /* UIIMageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCF92A1281E100AF3712 /* UIIMageExtension.swift */; };
+		BF08DCFC2A12820000AF3712 /* ConvertJSONToCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCFB2A12820000AF3712 /* ConvertJSONToCSV.swift */; };
+		BF08DCFE2A12824F00AF3712 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCFD2A12824F00AF3712 /* ImagePicker.swift */; };
+		BF08DD002A12826E00AF3712 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DCFF2A12826E00AF3712 /* CameraView.swift */; };
+		BF08DD022A12828800AF3712 /* SendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DD012A12828800AF3712 /* SendData.swift */; };
+		BF08DD042A1282A000AF3712 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DD032A1282A000AF3712 /* SearchView.swift */; };
+		BF08DD062A1282C200AF3712 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08DD052A1282C200AF3712 /* InformationView.swift */; };
+		BF08DD082A12984300AF3712 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF08DD072A12984300AF3712 /* GoogleService-Info.plist */; };
+		BF08DD0B2A12993B00AF3712 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BF08DD0A2A12993B00AF3712 /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,19 @@
 		BF08DCE22A12808700AF3712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF08DCE42A12808800AF3712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF08DCE72A12808800AF3712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF08DCEF2A12814C00AF3712 /* ConstHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstHolder.swift; sourceTree = "<group>"; };
+		BF08DCF12A12816900AF3712 /* ResultHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHolder.swift; sourceTree = "<group>"; };
+		BF08DCF32A12818700AF3712 /* MovieCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCropper.swift; sourceTree = "<group>"; };
+		BF08DCF52A12819D00AF3712 /* QRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanner.swift; sourceTree = "<group>"; };
+		BF08DCF72A1281BC00AF3712 /* ScanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		BF08DCF92A1281E100AF3712 /* UIIMageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIMageExtension.swift; sourceTree = "<group>"; };
+		BF08DCFB2A12820000AF3712 /* ConvertJSONToCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertJSONToCSV.swift; sourceTree = "<group>"; };
+		BF08DCFD2A12824F00AF3712 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BF08DCFF2A12826E00AF3712 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		BF08DD012A12828800AF3712 /* SendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendData.swift; sourceTree = "<group>"; };
+		BF08DD032A1282A000AF3712 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BF08DD052A1282C200AF3712 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		BF08DD072A12984300AF3712 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF08DD0B2A12993B00AF3712 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +80,14 @@
 			isa = PBXGroup;
 			children = (
 				BF08DCE02A12808700AF3712 /* BlepharitisAppApp.swift */,
+				BF08DCFD2A12824F00AF3712 /* ImagePicker.swift */,
+				BF08DCFF2A12826E00AF3712 /* CameraView.swift */,
+				BF08DD012A12828800AF3712 /* SendData.swift */,
 				BF08DCE22A12808700AF3712 /* ContentView.swift */,
+				BF08DD052A1282C200AF3712 /* InformationView.swift */,
+				BF08DD032A1282A000AF3712 /* SearchView.swift */,
+				BF08DD072A12984300AF3712 /* GoogleService-Info.plist */,
+				BF08DCEE2A12813000AF3712 /* Extension */,
 				BF08DCE42A12808800AF3712 /* Assets.xcassets */,
 				BF08DCE62A12808800AF3712 /* Preview Content */,
 			);
@@ -65,6 +100,20 @@
 				BF08DCE72A12808800AF3712 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF08DCEE2A12813000AF3712 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF08DCEF2A12814C00AF3712 /* ConstHolder.swift */,
+				BF08DCF52A12819D00AF3712 /* QRScanner.swift */,
+				BF08DCF12A12816900AF3712 /* ResultHolder.swift */,
+				BF08DCF72A1281BC00AF3712 /* ScanButton.swift */,
+				BF08DCF32A12818700AF3712 /* MovieCropper.swift */,
+				BF08DCF92A1281E100AF3712 /* UIIMageExtension.swift */,
+				BF08DCFB2A12820000AF3712 /* ConvertJSONToCSV.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,9 @@
 			dependencies = (
 			);
 			name = BlepharitisApp;
+			packageProductDependencies = (
+				BF08DD0A2A12993B00AF3712 /* FirebaseAnalytics */,
+			);
 			productName = BlepharitisApp;
 			productReference = BF08DCDD2A12808700AF3712 /* BlepharitisApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +163,9 @@
 				Base,
 			);
 			mainGroup = BF08DCD42A12808700AF3712;
+			packageReferences = (
+				BF08DD092A12993B00AF3712 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BF08DCDE2A12808700AF3712 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +182,7 @@
 			files = (
 				BF08DCE82A12808800AF3712 /* Preview Assets.xcassets in Resources */,
 				BF08DCE52A12808800AF3712 /* Assets.xcassets in Resources */,
+				BF08DD082A12984300AF3712 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +194,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF08DCE32A12808700AF3712 /* ContentView.swift in Sources */,
+				BF08DD022A12828800AF3712 /* SendData.swift in Sources */,
+				BF08DCF42A12818700AF3712 /* MovieCropper.swift in Sources */,
+				BF08DCFC2A12820000AF3712 /* ConvertJSONToCSV.swift in Sources */,
+				BF08DCF82A1281BC00AF3712 /* ScanButton.swift in Sources */,
+				BF08DCF02A12814C00AF3712 /* ConstHolder.swift in Sources */,
+				BF08DCF62A12819D00AF3712 /* QRScanner.swift in Sources */,
+				BF08DD062A1282C200AF3712 /* InformationView.swift in Sources */,
+				BF08DCF22A12816900AF3712 /* ResultHolder.swift in Sources */,
+				BF08DD042A1282A000AF3712 /* SearchView.swift in Sources */,
+				BF08DD002A12826E00AF3712 /* CameraView.swift in Sources */,
+				BF08DCFE2A12824F00AF3712 /* ImagePicker.swift in Sources */,
 				BF08DCE12A12808700AF3712 /* BlepharitisAppApp.swift in Sources */,
+				BF08DCFA2A1281E100AF3712 /* UIIMageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +338,10 @@
 				DEVELOPMENT_TEAM = FKLM5SV532;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To obtain photograph, we use cameras.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save obtained photo, we need photo library additions.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +371,10 @@
 				DEVELOPMENT_TEAM = FKLM5SV532;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To obtain photograph, we use cameras.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save obtained photo, we need photo library additions.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF08DD092A12993B00AF3712 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF08DD0A2A12993B00AF3712 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF08DD092A12993B00AF3712 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF08DCD52A12808700AF3712 /* Project object */;
 }
