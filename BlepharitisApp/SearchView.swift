@@ -100,6 +100,12 @@ struct Search: View {
                                     }
                         }
                     }
+                    Button(action: {
+                                convertJSONToCSV()
+                            }) {
+                                Text("Convert JSON to CSV")
+                            }
+                    
                 }
             }
         }
@@ -142,7 +148,7 @@ struct Search: View {
         }
     }
     
-    //JOIRの画像命名（SendDataViewにも同じものがある）
+    //画像命名（SendDataViewにも同じものがある）
     public func imageName() -> String{
         let id = self.user.hashid
         let dateFormatter = DateFormatter()
@@ -199,3 +205,4 @@ class SearchModel: ObservableObject, Identifiable {
     return (JsonList)
     }
 }
+
