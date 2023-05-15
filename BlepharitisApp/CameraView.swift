@@ -4,6 +4,8 @@
 //
 //  Created by Kuniaki Ohara on 2021/01/06.
 //
+//課題：：：：：ロードしたときに画像が中央に表示されない件→要修正
+
 
 import SwiftUI
 
